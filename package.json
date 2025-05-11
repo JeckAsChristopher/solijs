@@ -1,0 +1,21 @@
+{
+  "name": "solijs",
+  "version": "2.3.1",
+  "description": "Tool that can link shared object (.so) files to your JavaScript project and expose symbols dynamically.",
+  "main": "build/sljs.node",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "native",
+    "napi",
+    "shared-object",
+    "so",
+    "c++",
+    "linux",
+    "linking",
+    "symbols"
+  ],
+  "author": "Jeck Christopher Anog",
+  "license": "MIT"
+}
