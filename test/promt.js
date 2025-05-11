@@ -1,4 +1,4 @@
-const sljs = require('../build/sljs');
+const sljs = require('../build/Release/sljs');
 
 // Set stdout logger if necessary
 sljs.setStdoutLogger((msg) => {

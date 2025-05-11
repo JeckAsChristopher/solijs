@@ -33,12 +33,9 @@ CFLAGS_C_Debug :=
 # Flags passed to only C++ files.
 CFLAGS_CC_Debug := \
 	-fno-rtti \
-	-fno-exceptions \
 	-fno-strict-aliasing \
 	-std=gnu++20 \
-	-O2 \
-	-std=c++17 \
-	-fPIC
+	-std=c++17
 
 INCS_Debug := \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/include/node \
@@ -48,7 +45,7 @@ INCS_Debug := \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/uv/include \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/zlib \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/v8/include \
-	-I/data/data/com.termux/files/usr/include/node \
+	"-I$(srcdir)/\"/data/data/com.termux/files/home/sljs/node_modules/node-addon-api\"" \
 	-I$(srcdir)/node_modules/node-addon-api
 
 DEFS_Release := \
@@ -81,12 +78,9 @@ CFLAGS_C_Release :=
 # Flags passed to only C++ files.
 CFLAGS_CC_Release := \
 	-fno-rtti \
-	-fno-exceptions \
 	-fno-strict-aliasing \
 	-std=gnu++20 \
-	-O2 \
-	-std=c++17 \
-	-fPIC
+	-std=c++17
 
 INCS_Release := \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/include/node \
@@ -96,7 +90,7 @@ INCS_Release := \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/uv/include \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/zlib \
 	-I/data/data/com.termux/files/home/.cache/node-gyp/23.11.0/deps/v8/include \
-	-I/data/data/com.termux/files/usr/include/node \
+	"-I$(srcdir)/\"/data/data/com.termux/files/home/sljs/node_modules/node-addon-api\"" \
 	-I$(srcdir)/node_modules/node-addon-api
 
 OBJS := \
@@ -135,7 +129,6 @@ LDFLAGS_Release := \
 	-fPIC
 
 LIBS := \
-	-ldl \
 	-llog
 
 $(obj).target/sljs.node: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))

@@ -31,6 +31,8 @@ This tool allows you to:
 
 4. *2.4.5* — **Binding gyp support are now release!** **Prebuilt is still supported.**
 
+5. *2.5.6* — **Added functions such as args and machine code output, enhances the system and fix bugs**
+
 > updates coming soon!
 
 ---
@@ -43,7 +45,7 @@ This tool allows you to:
 npm install sljs
 ```
 
-> **No need for node-gyp!** The native `.node` file is precompiled.
+> The native `node` is precompiled in Pb dir
 
 ---
 
