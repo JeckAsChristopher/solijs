@@ -1,8 +1,8 @@
 {
   "name": "solijs",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "description": "Tool that can link shared object (.so) files to your JavaScript project and expose symbols dynamically.",
-  "main": "build/sljs.node",
+  "main": "build/Release/sljs.node",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/JeckAsChristopher/solijs/releases/tag/2.3.1",
   "bugs": {
     "url": "https://github.com/JeckAsChristopher/solijs/issues"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.3.1",
+    "node-gyp": "^11.2.0"
   }
 }

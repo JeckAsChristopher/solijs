@@ -12,7 +12,6 @@ This tool allows you to:
 - Capture their output (text or return values)
 - Inspect dynamic symbols defined inside the `.so`
 
-> **NOTE:** This is a **pre-release** version. Functionality is stable, but APIs may improve in upcoming versions.
 
 ## Update Logs
 **Deprecated packges**
@@ -25,6 +24,7 @@ This tool allows you to:
 
 3. *2.3.1* — **Now Suppport stdout prompting, and like chatbot!**
 
+4. *2.4.0* – **Binding gyp support are now release!** **Prebuilt is still supported.**
 > updates coming soon!
 
 ---
@@ -140,3 +140,17 @@ This module does **not** decompile `.so` files. It **exposes and interacts** wit
 ## Warning
 
 **DO NOT INSTALL ANY DEPRECATED PACKAGES AS IF DECLARED VULNERABLE TO ANY THREATS!**
+
+---
+
+## How to install prebuilt binaries
+
+1. Go to my Github Repository(Link in the bottom)
+
+2. Find the Pb folder 
+
+3. After that download it raw and download all the files except binding.gyp
+
+4. test it and if it works, congrats u've install the npmjs package without thr node-gyp!
+
+>Note: The Prebuilt is only for device that doesn't support node-gyp.

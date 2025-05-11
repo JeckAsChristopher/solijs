@@ -1,0 +1,1 @@
+cmd_Release/obj.target/sljs.node := aarch64-linux-android-clang++ -o Release/obj.target/sljs.node -shared -rdynamic -fPIC  -Wl,-soname=sljs.node -Wl,--start-group Release/obj.target/sljs/libs/core.o -Wl,--end-group -ldl -llog
