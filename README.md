@@ -14,17 +14,23 @@ This tool allows you to:
 
 
 ## Update Logs
+
 **Deprecated packges**
+
 1. *1.8.0-prerelease* — due to large size thr deps remove and add something better
 
+2. *2.4.0* — Corrupted packages(has a lot of errors)
+
 **Release packages**
+
 1. *1.9.0-alpha* — removes the deps folder(a big size folder)
 
 2. *2.0.0* — added new features such as outputting arrays, buffers and more! 
 
 3. *2.3.1* — **Now Suppport stdout prompting, and like chatbot!**
 
-4. *2.4.0* – **Binding gyp support are now release!** **Prebuilt is still supported.**
+4. *2.4.5* — **Binding gyp support are now release!** **Prebuilt is still supported.**
+
 > updates coming soon!
 
 ---
