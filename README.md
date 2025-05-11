@@ -1,6 +1,6 @@
 # solijs
 
-[![npm version](https://img.shields.io/npm/v/sljs?color=blue&label=npm)](https://www.npmjs.com/package/sljs)
+[![npm version](https://img.shields.io/npm/v/solijs?color=blue&label=npm)](https://www.npmjs.com/package/sljs)
 [![GitHub release](https://img.shields.io/github/v/release/JeckAsChristopher/solijs?label=release)](https://github.com/JeckAsChristopher/solijs/releases)
 [![License](https://img.shields.io/github/license/JeckAsChristopher/solijs)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/JeckAsChristopher/solijs)](https://github.com/JeckAsChristopher/solijs/issues)
