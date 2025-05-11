@@ -1,6 +1,6 @@
 {
   "name": "solijs",
-  "version": "2.3.1",
+  "version": "2.3.3",
   "description": "Tool that can link shared object (.so) files to your JavaScript project and expose symbols dynamically.",
   "main": "build/sljs.node",
   "scripts": {
@@ -17,5 +17,13 @@
     "symbols"
   ],
   "author": "Jeck Christopher Anog",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeckAsChristopher/solijs.git"
+  },
+  "homepage": "https://github.com/JeckAsChristopher/solijs/releases/tag/2.3.1",
+  "bugs": {
+    "url": "https://github.com/JeckAsChristopher/solijs/issues"
+  }
 }
