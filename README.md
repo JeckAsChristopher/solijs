@@ -4,6 +4,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/JeckAsChristopher/solijs?label=release)](https://github.com/JeckAsChristopher/solijs/releases)
 [![License](https://img.shields.io/github/license/JeckAsChristopher/solijs)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/JeckAsChristopher/solijs)](https://github.com/JeckAsChristopher/solijs/issues)
+![Build Status](https://img.shields.io/github/workflow/status/JeckAsChristopher/solijs/CI)
 
 **solijs** is a prebuilt native Node.js module that links and interacts with Linux `.so` (shared object) files directly from JavaScript using the N-API interface.
 
@@ -32,6 +33,8 @@ This tool allows you to:
 4. *2.4.5* — **Binding gyp support are now release!** **Prebuilt is still supported.**
 
 5. *2.5.6* — **Added functions such as args and machine code output, enhances the system and fix bugs**
+
+6. *2.6.1* — **Supports Game Logics But with limit**
 
 > updates coming soon!
 

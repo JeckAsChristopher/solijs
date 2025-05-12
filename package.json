@@ -1,6 +1,6 @@
 {
   "name": "solijs",
-  "version": "2.5.6",
+  "version": "2.6.1",
   "description": "Tool that can link shared object (.so) files to your JavaScript project and expose symbols dynamically.",
   "main": "build/Release/sljs.node",
   "scripts": {
